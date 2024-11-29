@@ -1,0 +1,114 @@
+
+ html,body{
+    scroll-behavior: smooth;
+    transition: all ease-in-out 0,4s;
+ }
+.info{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+    
+     padding: 0 5vw 5vh 5vw;
+     background-color:#262626;
+     font-family: "Source Code Pro", monospace;
+}
+
+.info h1{
+    color: red;
+    position: relative;
+    bottom: 34%;
+    text-align: center;
+    padding: 2vh 0 5vh 0;
+}
+
+form{
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+}
+
+ #username,#emailaddress,#phoneno{
+    width: 26vw;
+    height: 3vh;
+    outline: none;
+    border: 2px solid transparent;
+    background:white;
+    color: black;
+    font-weight: 600;
+
+ }
+
+ #username:is(:focus){
+    background: linear-gradient(black,black) padding-box,linear-gradient(45deg,blue,red,orange)border-box;
+color: white; 
+ }
+
+ #emailaddress:is(:focus){
+    background: linear-gradient(black,black) padding-box,linear-gradient(45deg,blue,red,orange)border-box;
+color: white; 
+ }
+
+ #phoneno:is(:focus){
+ background: linear-gradient(black,black) padding-box,linear-gradient(45deg,blue,red,orange)border-box;
+color: white;
+ }
+ #select{
+    width: 2vw;
+  
+
+ }
+
+  button{
+     padding: 1.5vh 2vw;
+     border-radius: 3vw;
+     border: none;
+     background-color:aqua;
+     font-weight: 400;
+  }
+
+  p{
+    padding: 2vh 0 0 0;
+    color:orange;
+    font-weight:bolder;
+
+  }
+
+  @media (max-width:800px){
+    form{
+      font-size: 2.2vw;
+    }
+   .info{
+      padding: 0 3vw 0vh 3vw;
+      width: 55vw;
+   }
+
+   .info h1 {
+      padding: 2vh 0 3vh 0;
+      font-size: 3.4vw;
+   }
+
+   
+   #username,#emailaddress,#phoneno {
+   width: 24.6vw;
+    height: 3vh;
+    font-size: 2vw;
+   }
+
+   button {
+      padding: 1.2vh 3vw;
+      border-radius: 10px;
+      border: none;
+      background-color: aqua;
+      font-weight: bolder;
+      margin-bottom: 2vh;
+      font-size: 2.5vw;
+  }
+
+
+
+  }
+
+

@@ -1,0 +1,173 @@
+html,body{
+    scroll-behavior: smooth;
+    transition: all ease-in-out 0,4s;
+}
+
+.Intro {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 65vw;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: -1vw;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.Intro h1 {
+    font-size: 3vw;
+    padding-bottom: 3vh;
+    color: aqua;
+
+}
+
+.Intro p {
+    font-family: "Source Code Pro", monospace;
+    ;
+    font-weight: bold;
+    font-size: 1.4vw;
+    letter-spacing: 0.4vh;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.flex div {
+
+    width: 100%;
+    height: 34%;
+    position: relative;
+}
+
+.flex div img {
+    width: 50%;
+    height: 32%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 50%;
+    transition: all ease-in 0.4s;
+}
+
+.flex div img:hover {
+    scale: 1.3;
+}
+
+.skillcontainer {
+    text-align: start;
+    padding: 0 4vw 3vh 0;
+}
+
+.hundred {
+    background-color: red;
+    width: 20vw;
+    height: 3vh;
+    font-weight: 400;
+}
+
+.eighty {
+    background-color: orange;
+    height: 3vh;
+    width: 15vw;
+    font-weight: 400;
+}
+
+.fourty {
+    background-color: yellowgreen;
+    width: 10vw;
+    height: 3vh;
+    font-weight: 400;
+}
+
+.skillitem {
+    display: flex;
+    font-weight: 600;
+    align-items: start;
+    text-align: start;
+    padding: 6px 12px;
+
+}
+
+.skillitem1 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+hr {
+    color: white;
+    margin: 2vh 0;
+}
+
+
+
+@media (max-width:800px){
+    .Intro {
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        width: 60vw;
+
+    }
+
+    .Intro p {
+        font-family: "Source Code Pro", monospace;
+        font-weight: bold;
+        font-size: 2vw;
+        letter-spacing: 0.2vh;
+    }
+
+    .Intro h1 {
+        font-size: 4vw;
+        padding-bottom: 0vh;
+        color: aqua;
+    }
+
+    .flex{
+        flex-direction: column;
+        row-gap: 2vh;
+    }
+
+    .flex div img {
+        width: 18%;
+        height: 32%;
+    }
+
+    .skillcontainer {
+        text-align: start;
+        padding: 0 0vw 0vh 0;
+    }
+
+    .skillitem{
+         font-size: 2vw;
+         padding: 5px 12px;
+    }
+
+    .myskills{
+        font-size: 3vw;
+    }
+    .hundred {
+       
+       
+        height: 2vh;
+        font-weight: 600;
+    }
+
+    .fourty {
+
+  height: 2vh;
+    }
+
+    .eighty {
+        
+        height: 2vh;
+    }
+
+    .Intro h1:first-child{
+        padding:  0 0 2vh 0;
+    }
+}
