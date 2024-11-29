@@ -46,6 +46,8 @@ body{
      animation: translate 10s linear 0s infinite;
 }
 
+ 
+  
  @keyframes translate {
     
 
@@ -78,7 +80,8 @@ body{
 #Project a , #About a,#Contact a,#Resume a{
  color: black;
  text-decoration: underline;
- text-decoration-color: blue;
+ font-weight: 700;
+ text-decoration-color: grey;
 }
 
 .centerpart{
