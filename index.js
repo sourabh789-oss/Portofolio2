@@ -55,3 +55,4 @@ project.addEventListener('click', moveto_otherpage1);
 about.addEventListener('click', moveto_otherpage2);
 contact.addEventListener('click', moveto_otherpage3);
 resume.addEventListener('click', moveto_otherpage4);
+
